@@ -1,18 +1,18 @@
 {
-  "name": "belcoinjs-lib",
+  "name": "junkcoinjs-lib",
   "version": "0.1.3",
-  "description": "Client-side Bells JavaScript library",
+  "description": "Client-side Junkcoin JavaScript library",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "engines": {
     "node": ">=8.0.0"
   },
   "keywords": [
-    "belcoinjs",
-    "belcoin",
+    "junkcoinjs",
+    "junkcoin",
     "browserify",
     "javascript",
-    "belcoinjs"
+    "junkcoinjs"
   ],
   "scripts": {
     "audit": "better-npm-audit audit -l high",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "https://github.com/Blockraid/jkccoinjs-lib.git"
   },
   "files": [
     "src"
