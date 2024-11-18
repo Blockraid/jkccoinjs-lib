@@ -1,5 +1,5 @@
 import { Buffer as NBuffer } from 'buffer';
-import { bellcoin as BITCOIN_NETWORK } from '../networks';
+import { junkcoin as BITCOIN_NETWORK } from '../networks';
 import * as bscript from '../script';
 import {
   typeforce as typef,
