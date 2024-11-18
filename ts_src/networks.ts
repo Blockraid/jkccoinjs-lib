@@ -14,25 +14,14 @@ interface Bip32 {
   private: number;
 }
 
-export const bellcoin: Network = {
-  messagePrefix: 'Bells Signed Message:\n',
-  bech32: 'bel',
+export const junkcoin: Network = {
+  messagePrefix: 'Junkcoin Signed Message:\n',
+  bech32: 'jkc',
   bip32: {
-    public: 0x02facafd,
-    private: 0x02fac398,
+    public: 0x0488b21e,  // Standard BIP32 public prefix
+    private: 0x0488ade4, // Standard BIP32 private prefix
   },
-  pubKeyHash: 25,
-  scriptHash: 30,
-  wif: 0x99,
-};
-export const testnet: Network = {
-  messagePrefix: 'Bells Signed Message:\n',
-  bech32: 'tbel',
-  bip32: {
-    public: 0x02facafd,
-    private: 0x02fac398,
-  },
-  pubKeyHash: 33,
-  scriptHash: 22,
-  wif: 0x9e,
+  pubKeyHash: 0x10, // 16 (0x10) from chainparams
+  scriptHash: 0x05, // 5 (0x05) from chainparams
+  wif: 0x90, // 144 (0x90) from chainparams
 };
