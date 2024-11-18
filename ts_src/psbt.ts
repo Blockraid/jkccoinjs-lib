@@ -17,7 +17,7 @@ import {
 import { checkForInput, checkForOutput } from 'bip174/src/lib/utils';
 import { fromOutputScript, toOutputScript } from './address';
 import { cloneBuffer, reverseBuffer } from './bufferutils';
-import { bellcoin as btcNetwork, Network } from './networks';
+import { junkcoin as btcNetwork, Network } from './networks';
 import * as payments from './payments';
 import { tapleafHash } from './payments/bip341';
 import * as bscript from './script';
