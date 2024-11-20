@@ -46,6 +46,8 @@
     "url": "https://github.com/Blockraid/jkccoinjs-lib.git"
   },
   "files": [
+    "ts_src",
+    "dist",
     "src"
   ],
   "dependencies": {
