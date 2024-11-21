@@ -56,19 +56,19 @@
     "bells-secp256k1": "0.1.1",
     "bip174": "2.1.1",
     "bs58check": "3.0.1",
-    "varuint-bitcoin": "1.1.2",
-    "typeforce": "1.18.0"
+    "typeforce": "1.18.0",
+    "varuint-bitcoin": "1.1.2"
   },
   "devDependencies": {
+    "@types/node": "^22.9.1",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
-    "@types/node": "^16.11.7",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.0",
     "rimraf": "^2.6.3",
-    "typescript": "^4.4.4"
+    "typescript": "^4.9.5"
   },
   "license": "MIT"
 }
